@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Square from './Components/Square'
 import Board from './Components/Board'
+import Game from './Components/Game'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     
-      <Board/>
+    <Game/>
     </>
   )
 }
