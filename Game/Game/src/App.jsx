@@ -5,13 +5,14 @@ import './App.css'
 import Square from './Components/Square'
 import Board from './Components/Board'
 import Game from './Components/Game'
+import Users from './Components/Users'
 
 function App() {
 
   return (
     <>
-    
     <Game/>
+    <Users/>
     </>
   )
 }
